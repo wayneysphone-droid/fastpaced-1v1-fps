@@ -1,0 +1,19 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are lost when converted from the old
+; format.
+
+config_version=5
+
+[application]
+
+config/name="FastPaced 1v1 FPS"
+config/description="A fast-paced, skill-based 1v1 first-person shooter emphasizing rapid movement and gunplay mastery."
+config/version="0.1.0"
+run/main_scene="res://scenes/game/main_match.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+viewport/hdr_2d=false

@@ -1,0 +1,24 @@
+# Godot Engine
+.godot/
+*.exe
+*.so
+*.dll
+*.dylib
+*.app
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+export/
+build/
+dist/
+bin/
